@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+/* padrao */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --corVerm1: #de0f0f;
+    --corVerm2: #810909;
+    --corTxt: #fff;
+}
+
+/* fim padrao */
 
 body {
     font-family: 'Bebas Neue';
