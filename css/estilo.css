@@ -201,7 +201,7 @@ h1 {
 }
 
 .card-info h3 {
-    color: #FFFFFF;
+    color: var(--corBranco);
     font-size: 20px;
 }
 
