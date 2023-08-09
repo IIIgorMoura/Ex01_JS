@@ -18,6 +18,13 @@
     --corPreto: #1a1a1a;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.menu-barras {
+    display: none;
+}
 /* fim padrao */
 
 body {
