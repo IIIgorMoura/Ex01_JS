@@ -67,7 +67,7 @@ header {
 .menu-header a:hover:not(.botao) {
     font-size: 1.6em;
     transition: 0.5s;
-    text-shadow: 4px 4px 6px #0000007a;
+    text-shadow: 4px 4px 6px var(--corPreto);
 }
 
 .botao{
@@ -86,7 +86,7 @@ header {
     line-height: 53px;
     width: 160px;
     transition: 0.5s;
-    box-shadow: 4px 4px 6px #0000007a;
+    box-shadow: 4px 4px 6px var(--corPreto);
 }
 
 .menu-barras{
@@ -120,12 +120,12 @@ h1 {
 }
 
 .linha-amarela {
-    border: solid 1px var(--corBranco);
+    border: solid 1px var(--corAmarelo);
 }
 
 .titulo-senai {
     font-family: 'Courier New', Courier, monospace;
-    color: var(--corAmarelo);
+    color: var(--corBranco);
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 600;
@@ -142,7 +142,7 @@ h1 {
 }
 
 .sobre-projetos h2 {
-    color: var(--corVermelho1);
+    color: var(--corBranco);
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -170,7 +170,7 @@ h1 {
 }
 
 .conteudo-sobre h3 {
-    color: var(--corAmarelo);
+    color: var(--corVermelhoDestaque);
     font-size: 45px;
     font-weight: 500;
 }
@@ -254,8 +254,8 @@ h1 {
 
 footer {
     height: 80px;
-    background-color: #F9003D;
-    color: white;
+    background-color: var(--corVermelho1);
+    color: var(--corBranco);
     display: flex;
     justify-content: center;
     align-items: center;
