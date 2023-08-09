@@ -8,9 +8,14 @@
 }
 
 :root {
-    --corVerm1: #de0f0f;
-    --corVerm2: #810909;
-    --corTxt: #fff;
+    --corVermelho1: #de0f0f;
+    --corVermelho2: #b51515;
+    --corVermelhoDestaque: #ff0000;
+
+    --corAmarelo: #FFAF00;
+
+    --corBranco: #fff;
+    --corPreto: #1a1a1a;
 }
 
 /* fim padrao */
@@ -26,7 +31,7 @@ body {
 }
 
 header {
-    background-color: #F9003D;
+    background-color: var(--corVermelho1);
     height: 80px;
     position: fixed;
     width: 100vw;
@@ -52,7 +57,7 @@ header {
 }
 
 .menu-header a {
-    color: white;
+    color: var(--corBranco);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.25em;
@@ -66,13 +71,13 @@ header {
 }
 
 .botao{
-    background-color: #A259F7;
+    background-color: var(--corVermelhoDestaque);
     height: 45px;
     width: 150px;
     text-align: center;
     line-height: 47px;
     font-size: 1.5em !important;
-    border: solid 1px #080324;
+    border: solid 1px var(--corBranco);
 }
 
 .botao:hover{
@@ -110,17 +115,17 @@ header {
 }
 
 h1 {
-    color: white;
+    color: var(--corBranco);
     font-size: 80px;
 }
 
 .linha-amarela {
-    border: solid 1px #FFAF00;
+    border: solid 1px var(--corBranco);
 }
 
 .titulo-senai {
     font-family: 'Courier New', Courier, monospace;
-    color: #F9003D;
+    color: var(--corAmarelo);
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 600;
@@ -131,13 +136,13 @@ h1 {
 }
 
 .sobre-projetos {
-    background-color: #080324;
+    background-color: var(--corPreto);
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .sobre-projetos h2 {
-    color: #F9003D;
+    color: var(--corVermelho1);
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -157,7 +162,7 @@ h1 {
 }
 
 .texto-participantes {
-    color: white;
+    color: var(--corBranco);
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     font-size: 25px;
@@ -165,13 +170,13 @@ h1 {
 }
 
 .conteudo-sobre h3 {
-    color: #FFAF00;
+    color: var(--corAmarelo);
     font-size: 45px;
     font-weight: 500;
 }
 
 .texto-sobre p {
-    color: #FFFFFF;
+    color: var(--corBranco);
     font-family: 'Segoe UI', sans-serif;
     text-align: justify;
 }
@@ -201,10 +206,10 @@ h1 {
 }
 
 .card-info p {
-    color: #A259F7;
+    color: var(--corBranco);
     font-size: 22px;
     font-weight: 600;
-    border: solid 2px #A259F7;
+    border: solid 2px var(--corAmarelo);
     width: 250px;
     padding: 30px 0;
     text-align: center;
@@ -222,16 +227,16 @@ h1 {
 }
 
 .conteudo-endereco h2 {
-    color: #FFAF00;
+    color: var(--corBranco);
     font-size: 50px;
     font-weight: 500;
 }
 
 .texto-endereco {
-    color: #A259F7;
+    color: var(--corBranco);
     font-family: 'Courier New', Courier, monospace;
-    background-color: #010010;
-    border: solid 2px #A259F7;
+    background-color: var(--corPreto);
+    border: solid 2px var(--corAmarelo);
     padding: 55px 55px;
 }
 
